@@ -137,7 +137,7 @@
     <url-pattern>/huzzah/*</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
-    <servlet-name>DssServlet</servlet-name>
+    <servlet-name>DSSServlet</servlet-name>
     <url-pattern>/dss/*</url-pattern>
   </servlet-mapping>
   <servlet-mapping>

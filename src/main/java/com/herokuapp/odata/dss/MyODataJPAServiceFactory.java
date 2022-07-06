@@ -10,7 +10,7 @@ public class MyODataJPAServiceFactory extends ODataJPAServiceFactory {
 	public ODataJPAContext initializeODataJPAContext() throws ODataJPARuntimeException {
 		ODataJPAContext context = getODataJPAContext();
 		context.setEntityManagerFactory(HerokuEntityManagerFactory.getInstance());
-		context.setPersistenceUnitName("dreamhousePersistenceUnit");
+		context.setPersistenceUnitName("dssPersistenceUnit");
 		return context;
 	}
 

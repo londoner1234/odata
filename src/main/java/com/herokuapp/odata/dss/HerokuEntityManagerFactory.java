@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class HerokuEntityManagerFactory {
 
-	public static final String PUNIT_NAME = "dreamhousePersistenceUnit";
+	public static final String PUNIT_NAME = "dssPersistenceUnit";
 	private static final EntityManagerFactory INSTANCE;
 
 	static {

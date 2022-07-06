@@ -21,6 +21,7 @@ public final class Index extends HttpServlet {
         writer.println("<h1>oData Demo Sources</h1>");
         writer.println("<ul>");
         writer.println("<li><a href='/dreamhouse'>DreamHouse</a></li>");
+        writer.println("<li><a href='/dss'>dss</a></li>");
         writer.println("<li><a href='/huzzah'>Huzzah</a></li>");
         writer.println("<li><a href='/ibm'>IBM</a></li>");
         writer.println("<li><a href='/sap'>SAP</a></li>");

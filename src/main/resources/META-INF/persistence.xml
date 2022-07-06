@@ -11,6 +11,16 @@
             <property name="hibernate.default_schema" value="public"/>
         </properties>
     </persistence-unit>
+    <persistence-unit name="dssPersistenceUnit" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>com.herokuapp.odata.dss.entities.AgentCode</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+        <properties>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.default_schema" value="public"/>
+        </properties>
+    </persistence-unit>
 
     <persistence-unit name="groceryPersistenceUnit" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>

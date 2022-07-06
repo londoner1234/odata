@@ -124,7 +124,10 @@
     <servlet-name>HuzzahServlet</servlet-name>
     <url-pattern>/huzzah/*</url-pattern>
   </servlet-mapping>
-
+  <servlet-mapping>
+    <servlet-name>DssServlet</servlet-name>
+    <url-pattern>/dss/*</url-pattern>
+  </servlet-mapping>
   <servlet-mapping>
     <servlet-name>DreamHouseServlet</servlet-name>
     <url-pattern>/dreamhouse/*</url-pattern>
